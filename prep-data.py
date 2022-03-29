@@ -9,4 +9,4 @@ def prep_data(context, source_url: mlrun.DataItem, label_column='label'):
     context.log_result('num_rows', df.shape[0])
 
     # Store the dataset in your artifacts database
-    context.log_dataset('cleaned_data', df=df, index=False, format='csv')
+    context.log_dataset('cleaned_data-new', df=df, index=False, format='csv')
