@@ -1,4 +1,3 @@
-# mlrun: start-code
 import mlrun
 def prep_data(context, source_url: mlrun.DataItem, label_column='label'):
 
@@ -11,4 +10,3 @@ def prep_data(context, source_url: mlrun.DataItem, label_column='label'):
 
     # Store the dataset in your artifacts database
     context.log_dataset('cleaned_data', df=df, index=False, format='csv')
-# mlrun: end-code
