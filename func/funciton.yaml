@@ -2,7 +2,7 @@ kind: job
 metadata:
   name: func-hub
   tag: v1
-  hash: 375ae5a7e054fa934f6d5de7a22d4e349a3bafcd
+  hash: 6e3562e2de676bf4efb51faca9ebafc3a6beee1a
   project: hub-shapira
   credentials:
     access_key: 65e2966b-5c2b-4ea6-bf52-f2d0b829fe17
@@ -13,7 +13,7 @@ spec:
   build:
     functionSourceCode: aW1wb3J0IG1scnVuCmRlZiBmdW5jKCk6CiAgICAKICAgIHJldHVybiAxCg==
     commands: []
-    code_origin: https://github.com/GiladShapira94/my-hub.git#15f1b18a5b30273d4a345b0b8ec786cc1d3c1586:./my-hub/func.py
+    code_origin: https://github.com/GiladShapira94/my-hub.git#f4f75df18191f1c35a34354009c8b5b8d2393126:./my-hub/func.py
     origin_filename: ./my-hub/func.py
   entry_points:
     func:
