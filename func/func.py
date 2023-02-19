@@ -1,4 +1,5 @@
 import mlrun
+import time
 def func():
-    
-    return 2
+    time.sleep(120)
+    return 3
