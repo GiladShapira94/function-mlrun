@@ -1,6 +1,6 @@
 kind: job
 metadata:
-  name: func-hub
+  name: func-hub-func
   tag: version2
   hash: 8cc9a23a691521c4c3780f3cb7bd879fbdbd341f
   project: hub-shapira
